@@ -1,10 +1,15 @@
-# Deep Fuzzy Cognitive Maps with Vector Inference  for Multivariate Time Series Long-Term Forecasting
+# Fractional-Order Fuzzy Cognitive Maps: A Framework for Long-Term Forecasting of Multivariate Time Series
 ![Python 3.9](https://img.shields.io/badge/python-3.9-green.svg?style=plastic)
 ![PyTorch 1.2](https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?style=plastic)
 
 
 
+<p align="center">
+<img src=".\pic\FFCM.png" height = "360"   alt="" align=center />  
+<br><br>
+</p>
 
+1.
 
 
 ##  1.Program Overview
