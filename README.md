@@ -11,8 +11,8 @@
 
 | Formula Variable | Program Variable Name | Line Range in Code |
 | --- | --- | ---|
-|$$g[a(t_b)]$$| self.A_0_NEW  |cdeint_module.py/lines 44-52
-| data           | The dataset name                                             |
+|$$g[a(t_b)]$$| self.A_0_NEW  |cdeint_module.py/lines 44-52  |
+| $$g[a(t_1)]$$ | self.A_N_OLD | cdeint_module.py/lines 33-40 |
 | root_path      | The root path  |
 | data_path      | The data file                 |
 | features       | The forecasting task (defaults to `M`). This can be set to `M`,`S`,`MS` (M : multivariate predict multivariate, S : univariate predict univariate, MS : multivariate predict univariate) |
