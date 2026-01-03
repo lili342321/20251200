@@ -16,16 +16,12 @@
 | fractional order $$\\alpha $$  | self.fract  | cdeint_module.py/line 24 |
 | coefficient $$l$$      | self.l  |cdeint_module.py/line 19 |
 | gain coefficient $$\\lambda $$ | self.lambd| cdeint_module.py/line 18|
-| target         | Target feature in S or MS task (defaults to `OT`)             |
-| freq           | Freq for time features encoding (defaults to `h`). This can be set to `s`,`t`,`h`,`d`,`b`,`w`,`m` (s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly).You can also use more detailed freq like 15min or 3h |
-| checkpoints    | Location of model checkpoints (defaults to `./checkpoints/`)  |
-| seq_len | Input sequence length of Informer encoder (defaults to 96) |
-| label_len | Start token length of Informer decoder (defaults to 48) |
-| pred_len | Prediction sequence length (defaults to 24) |
-| enc_in | Encoder input size (defaults to 7) |
-| dec_in | Decoder input size (defaults to 7) |
-| c_out | Output size (defaults to 7) |
-| d_model | Dimension of model (defaults to 512) |
+| $$M$$ | constant  |cdeint_module.py/line 105|
+| $$N_k$$|   gamma.gamma_all| gamma.py/lines 126-142|
+|Third-order Runge-Kutta    |  rk3_alt_step_func|rk_common.py/ lines 103-112|
+| Fourth-order Runge-Kutta | rk4_alt_step_func |rk_common.py/ lines 114-123|
+| Fifth-order Runge-Kutta | rk5_alt_step_func |rk_common.py/ lines 125-135|
+
 
 
 
