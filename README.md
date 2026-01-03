@@ -24,7 +24,7 @@
 
 
 
-## 3.Requirements
+## Requirements
 
 - Python 3.9
 - numpy ==  1.26.3
