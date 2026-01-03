@@ -13,9 +13,9 @@
 | --- | --- | ---|
 |$$g[a(t_b)]$$| self.A_0_NEW  |cdeint_module.py/lines 44-52  |
 | $$g[a(t_1)]$$ | self.A_N_OLD | cdeint_module.py/lines 33-40 |
-| root_path      | The root path  |
-| data_path      | The data file                 |
-| features       | The forecasting task (defaults to `M`). This can be set to `M`,`S`,`MS` (M : multivariate predict multivariate, S : univariate predict univariate, MS : multivariate predict univariate) |
+| fractional order $$\\alpha $$  | self.fract  | cdeint_module.py/line 24 |
+| coefficient $$l$$      | self.l  |cdeint_module.py/line 19 |
+| gain coefficient $$\\lambda $$ | self.lambd| cdeint_module.py/line 18|
 | target         | Target feature in S or MS task (defaults to `OT`)             |
 | freq           | Freq for time features encoding (defaults to `h`). This can be set to `s`,`t`,`h`,`d`,`b`,`w`,`m` (s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly).You can also use more detailed freq like 15min or 3h |
 | checkpoints    | Location of model checkpoints (defaults to `./checkpoints/`)  |
