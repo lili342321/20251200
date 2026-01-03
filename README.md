@@ -9,7 +9,24 @@
 <br><br>
 </p>
 
-1.
+| Formula Variable | Program Variable Name | Line Range in Code |
+| --- | --- | ---|
+|$$g[a(t_b)]$$| self.A_0_NEW  |cdeint_module.py/lines 44-52
+| data           | The dataset name                                             |
+| root_path      | The root path  |
+| data_path      | The data file                 |
+| features       | The forecasting task (defaults to `M`). This can be set to `M`,`S`,`MS` (M : multivariate predict multivariate, S : univariate predict univariate, MS : multivariate predict univariate) |
+| target         | Target feature in S or MS task (defaults to `OT`)             |
+| freq           | Freq for time features encoding (defaults to `h`). This can be set to `s`,`t`,`h`,`d`,`b`,`w`,`m` (s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly).You can also use more detailed freq like 15min or 3h |
+| checkpoints    | Location of model checkpoints (defaults to `./checkpoints/`)  |
+| seq_len | Input sequence length of Informer encoder (defaults to 96) |
+| label_len | Start token length of Informer decoder (defaults to 48) |
+| pred_len | Prediction sequence length (defaults to 24) |
+| enc_in | Encoder input size (defaults to 7) |
+| dec_in | Decoder input size (defaults to 7) |
+| c_out | Output size (defaults to 7) |
+| d_model | Dimension of model (defaults to 512) |
+
 
 
 ##  1.Program Overview
