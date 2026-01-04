@@ -6,12 +6,12 @@
 
 Currently, we have made publicly available the main function, the fractional-order program, and the Runge-Kutta solver. If this paper is accepted, we plan to release the remaining parts, primarily including the data preprocessing stage. This repository contains the following main components:
 
-- `cdeint_module.py`: The main script that executes the program.
-- `gamma.py`: A folder containing utility functions.
-- `rk_common.py`: Contains sample data or input files.
+- `cdeint_module.py` contains the main function, which is primarily responsible for implementing the FFCM model.
+- `gamma.py` contains the G-L fractional order function.
+- `rk_common.py`contains the Runge-Kutta solver.
 
 
-
+## 2.Code Details
 
 <p align="center">
 <img src=".\pic\FFCM.png" height = "360"   alt="" align=center />  
@@ -33,7 +33,7 @@ Currently, we have made publicly available the main function, the fractional-ord
 
 
 
-## 2.Requirements
+## 3.Requirements
 
 - Python 3.9
 - numpy ==  1.26.3
