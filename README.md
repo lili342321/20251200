@@ -25,7 +25,7 @@ We provided an introduction to the main functions, including the fractional-orde
 | coefficient $$l$$      | self.l  |cdeint_module.py/line 19 |
 | gain coefficient $$\\lambda $$ | self.lambd| cdeint_module.py/line 18|
 | $$M$$ | constant  |cdeint_module.py/line 105|
-| $$N_k$$|   gamma.gamma_all| gamma.py/lines 126-142|
+| $$N_k$$|   gamma.gamma_all| gamma.py/lines 86-102|
 |Third-order Runge-Kutta    |  rk3_alt_step_func|rk_common.py/ lines 103-112|
 | Fourth-order Runge-Kutta | rk4_alt_step_func |rk_common.py/ lines 114-123|
 | Fifth-order Runge-Kutta | rk5_alt_step_func |rk_common.py/ lines 125-135|
