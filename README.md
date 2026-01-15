@@ -32,13 +32,7 @@ We provided an introduction to the main functions, including the fractional-orde
 
 
 
-## 3.Requirements
 
-- Python 3.9
-- numpy ==  1.26.3
-- pandas == 2.2.3
-- torch ==  2.6.0
-- tqdm == 4.67.1
 
 
 
