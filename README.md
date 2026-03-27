@@ -31,6 +31,9 @@ We provided an introduction to the main functions, including the fractional-orde
 | Fifth-order Runge-Kutta | rk5_alt_step_func |rk_common.py/ lines 125-135|
 
 
+## 3.FFCM-Based Long-Horizon MTS Modeling
+### 3.1. Input Sequence Enrichment
+A piecewise cubic polynomial $\boldsymbol{S}:[t_1,\,t_I]\to\mathbb{R}^{N}$ is constructed such that $\boldsymbol{S}(t_k) = \boldsymbol{x}_k$ for $k = 1,\ldots,I$, with continuous first and second derivatives at all interior knots and natural boundary conditions $\boldsymbol{S}''(t_1) = \boldsymbol{S}''(t_I) = \boldsymbol{0}$.  Between each pair of adjacent observations  ($\boldsymbol{x_i},\,\boldsymbol{x_{i+1}}$), $p$ intermediate states are sampled at uniform spacing $\Delta = 1/(p{+}1)$, yielding the enriched sequence
 
 
 
